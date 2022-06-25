@@ -1,0 +1,5 @@
+include ':nativetemplates'
+rootProject.name='Memespace1'
+include ':app'
+
+

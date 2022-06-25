@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.thesis.fixitadmin">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.    READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".chart.RoadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.PublicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.ElectricActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.EmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.SingleBarChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.PieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.GroupBarChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.LineChart3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.LineChart2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".chart.LineGraphActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Statistics"
+            android:exported="false" />
+        <activity
+            android:name=".activity_analytics"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCSKZsgwlaMHJVRWZsh2AWaoUW_WSVSuwc" />
+
+        <activity android:name=".groupSettings.GUsernameActivity" />
+        <activity android:name=".groupSettings.GnameActivity" />
+        <activity android:name=".groupSettings.gLinkActivity" />
+        <activity android:name=".groupSettings.GbioActivity" />
+        <activity android:name=".settings.UsernameActivity" />
+        <activity android:name=".notifications.NotificationScreen" />
+        <activity android:name=".settings.NameActivity" />
+        <activity android:name=".settings.LocationActivity" />
+        <activity android:name=".settings.LinkActivity" />
+        <activity android:name=".settings.BioActivity" />
+        <activity android:name=".Check" />
+        <activity
+            android:name=".menu.ChangeEmail"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".menu.ChangePassword"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".menu.Policy"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".post.Post"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".user.MediaView" />
+        <activity
+            android:name=".menu.Saved"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".groupSettings.EditGroup"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".groups.GroupProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".groups.AddParticipants"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".groups.GroupChat"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".groups.CreateGroup"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".groups.ShareGroupActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".post.PostLikedBy"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".shareChat.ShareChatActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:label="Add to chat"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".shareChat.ShareActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".user.MyFollowing"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".post.PostDetails"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".post.UpdatePost"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".user.FollowersList"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".user.UserProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".search.Search"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".shareChat.Chat"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".menu.Menu"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".search.ProfileSearch"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".settings.EditProfile"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".authPhone.Final"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".authPhone.VerifyOTP"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".authPhone.GenerateOTP"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".authEmail.ForgotPassword"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".authEmail.Finish"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".authEmail.SignUp"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".authEmail.SignIn"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".welcome.IntroLast"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".welcome.IntroActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme" />
+        <activity
+            android:name=".welcome.SplashScreen"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AuthTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="fullSensor" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8957916229862289~8827946397" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.thesis.fixitadmin.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
+
+        <service
+            android:name=".notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

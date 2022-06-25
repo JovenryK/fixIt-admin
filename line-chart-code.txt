@@ -1,0 +1,68 @@
+EditText xValue, yValue;
+Button insertBtn;
+LineChart lineChart;
+FirebaseDatabase firebaseDatabase;
+DatabaseReference ref;
+LineDataSet lineDataSet = new LineDataSet(null, null);
+ArrayList<ILineDataSet> iLineDataSets = new ArrayList<>();
+LineData lineData;
+
+//ONCREATE
+
+firebaseDatabase = FirebaseDatabasse.getInstance();
+ref = Firebase.Database.getReference("Posts");
+insertData();
+----
+Private void insertData(){
+	insertBtn.setOnClickListener(new VIew.OnClickListener() {
+		@Override
+		public void onClick(View view){
+			String id = ref.push.getKey();
+			int x = Integer.parseInt(xValue.getText().toString());
+			int y = Integer.parseInt(yValue.getText().toString());
+			
+			DataPoint dataPoint = new DataPoint(x,y);
+			ref.child(id).SetValue(dataPoint);
+			
+			retrieveData();
+		}
+	});
+}
+
+private void retrievData(){
+	ref.addValueEventListener(new ValueEventListener() {
+		@Override
+		public void onDataChange (@NonNull DataSnapshot dataSnapshot){
+			ArrayList<Entry> dataVals = new ArrayList<Entry>();
+				
+			if(dataSnapshot.hasChildred()){
+				for(DataSnapshot myDataSnapshot : dataSnapshot.getChildren()){
+					DataPoint dataPoint = myDataSnapshot.getValue(DataPoint.class);
+					dataVals.add(new Entry(dataPoint.getxValue(), dataPoint.getyValue()));
+				}
+				showChart(dataVals);
+			}
+			else
+			{
+				lineChart.clear();
+				lineChart.invalidate();
+			}
+		}
+		@Override
+		public void onCancelled(@NonNull DatabaseError databaseError){
+			
+		}
+	});
+}
+
+private void showChart(ArrayList<Entry> dataVals){
+	lineDataSet.setValue(dataVals);
+	lineDataSet.setLabel("DataSet 1");
+	iLineDataSets.clear();
+	iLineDataSets.add(lineDataSet);
+	lineData = new LineData(iLineDataSets);
+	lineChart.clear();
+	lineChart.setData(lineData);
+	lineChart.invalidate();
+}
+		

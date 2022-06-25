@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_share_chat.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_share_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\add_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_emergency.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_single_bar_chart.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_single_bar_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\share_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\share_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_username.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_username.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_link.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_link.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_line_graph.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_line_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_media_view.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_media_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_group_profile.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_group_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_chat_left.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\row_chat_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pie.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_pie.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_line_chart2.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_line_chart2.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_update_post.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_update_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_bio.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_bio.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_public.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_public.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post_liked_by.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_post_liked_by.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\group_display.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\group_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_password.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_check.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_road.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_road.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\more_filter_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\more_filter_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_group_chat.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_group_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_statistics.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_group_bar_chart.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_group_bar_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_group_left.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\row_group_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_participants.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_add_participants.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\more_group_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\more_group_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_comment.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\row_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_group.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_saved.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_saved.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_location.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_policy.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_chat_right.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\row_chat_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_followers_list.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_followers_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\story_item.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\story_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\edit_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\edit_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\post.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\post.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\groupchatlist.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\groupchatlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_maps.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_group.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_edit_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_share.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_name.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chatlist.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\chatlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile_search.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_profile_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post_details.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_post_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_line_chart3.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_line_chart3.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\share_vid_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\share_vid_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_create_group.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_create_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\user_display.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\user_display.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_group_right.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\row_group_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification_screen.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_notification_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_intro_screen.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\layout_intro_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\more_bottom_sheet.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\more_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my_following.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_my_following.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_electric.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_electric.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_email.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_change_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user_profile.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_analytics.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout\\activity_analytics.xml"
+    }
+]

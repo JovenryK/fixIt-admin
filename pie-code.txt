@@ -1,0 +1,72 @@
+//ONCREATE
+        pieChart = findViewById(R.id.pieChart);
+
+        PieChartView pieChartView = findViewById(R.id.pievIew);
+
+
+//        showPie();
+
+        pieDataLecho.add(new SliceValue(datas.emergencyCount, Color.BLUE));
+        pieDataLecho.add(new SliceValue(ElectricCount, Color.RED));
+        pieDataLecho.add(new SliceValue(PublicCount, Color.BLACK));
+        pieDataLecho.add(new SliceValue(HouseholdCount, Color.CYAN));
+        pieDataLecho.add(new SliceValue(1, Color.MAGENTA));
+
+        PieChartData pieChartData = new PieChartData(pieDataLecho);
+
+        pieChartView.setPieChartData(pieChartData);
+
+
+
+
+//    private void showPie(){
+//        PieDataSet pieDataSet = new PieDataSet(chartData(), "FixIt");
+//        pieDataSet.setColors(colorClass);
+//
+//        PieData pieData = new PieData(pieDataSet);
+//
+//        pieChart.setData(pieData);
+//        pieChart.invalidate();
+//
+//    }
+
+
+//    private ArrayList<PieEntry> chartData(){
+//
+//        dataVals.add(new PieEntry(EmergencyCount, "Emergency"));
+//        dataVals.add(new PieEntry(2, "Electric Complaints"));
+//        dataVals.add(new PieEntry(3, "Public Complaints"));
+//        dataVals.add(new PieEntry(4, "Household Complaints"));
+//        dataVals.add(new PieEntry(RoadCount, "Road Complaints"));
+//
+//
+//        return dataVals;
+//    }
+
+
+//    private ArrayList<PieEntry> chartData(int counts, String category){
+//        if(category == "Emergency"){
+//            dataVals.add(new PieEntry(counts, "Emergency"));
+//        }
+//        if(category == "Electrical Complaints"){
+//            dataVals.add(new PieEntry(counts, "Electrical Complaints"));
+//        }
+//        if(category == "Public Incidents"){
+//            dataVals.add(new PieEntry(counts, "Public Incidents"));
+//        }
+//        if(category == "Household Concerns"){
+//            dataVals.add(new PieEntry(counts, "Household Concerns"));
+//        }
+//        if(category == "Road Complaints"){
+//            dataVals.add(new PieEntry(counts, "Road Complaints"));
+//        }
+//        else{
+//
+//        }
+//        return dataVals;
+//    }
+
+    private int getChart(int count){
+        datas.emergencyCount = count;
+        return count;
+    }

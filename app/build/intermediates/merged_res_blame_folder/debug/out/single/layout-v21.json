@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_intro_last.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_intro_last.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_search.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_verify_o_t_p.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_verify_o_t_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_finish.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_finish.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_generate_o_t_p.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_generate_o_t_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_final.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_final.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_sign_in.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_sign_up.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-v21\\activity_forgot_password.xml",
+        "source": "C:\\Users\\USER\\Desktop\\Thesis-lenard\\Thesis\\app\\src\\main\\res\\layout-v21\\activity_forgot_password.xml"
+    }
+]
