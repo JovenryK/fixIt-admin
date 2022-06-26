@@ -55,6 +55,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.thesis.fixitadmin.authEmail.SignIn;
+import com.thesis.fixitadmin.chart.Analytics;
 import com.thesis.fixitadmin.chart.ElectricActivity;
 import com.thesis.fixitadmin.chart.EmergencyActivity;
 import com.thesis.fixitadmin.chart.HomeActivity;
@@ -64,6 +65,8 @@ import com.thesis.fixitadmin.chart.LineGraphActivity;
 import com.thesis.fixitadmin.chart.PublicActivity;
 import com.thesis.fixitadmin.chart.RoadActivity;
 import com.thesis.fixitadmin.model.ModelChart;
+import com.thesis.fixitadmin.model.ModelPost;
+
 import java.util.Date;
 
 import java.util.ArrayList;
@@ -139,21 +142,7 @@ public class activity_analytics extends AppCompatActivity {
             startActivity(intent);
         });
 
-
-        postList = new ArrayList<>();
-        getEmergencyCount();
-
-        postList = new ArrayList<>();
-        getElectricalCount();
-
-        postList = new ArrayList<>();
-        getPublicIncidentsCount();
-
-        postList = new ArrayList<>();
-        getHouseholdComplaintsCount();
-
-        postList = new ArrayList<>();
-        getRoadComplaintsCount();
+        getAnalytics();
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
@@ -181,120 +170,34 @@ public class activity_analytics extends AppCompatActivity {
 //        });
     }
 
-    private void getEmergencyCount() {
+    private void getAnalytics() {
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Posts");
 
-        ValueEventListener valueEventListener = new ValueEventListener() {
+         ValueEventListener valueEventListener = new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int count = 0;
+                List<ModelPost> modelPosts = new ArrayList<ModelPost>();
                 for (DataSnapshot ds : snapshot.getChildren()) {
-                    if (ds.child("type").getValue(String.class).equals("Emergency")){
-                        count += 1;
-                    }
+                    ModelPost modelPost = new ModelPost();
+                    modelPost.setpTime(ds.child("pTime").getValue(String.class));
+                    modelPost.setType(ds.child("type").getValue(String.class));
+                    
+                    modelPosts.add(modelPost);
                 }
-                Emergency.setText(String.valueOf(count));
+                Analytics.generateReport(modelPosts);
+
+                Emergency.setText(String.valueOf(Analytics.getTotalPerType("Emergency")));
+                Electrical_complaints.setText(String.valueOf(Analytics.getTotalPerType("Electrical Complaints")));
+                Public_incidents.setText(String.valueOf(Analytics.getTotalPerType("Public Incidents")));
+                Household.setText(String.valueOf(Analytics.getTotalPerType("Household Concerns")));
+                Road_complaints.setText(String.valueOf(Analytics.getTotalPerType("Road Complaints")));
             }
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
             }
         };
         ref.addListenerForSingleValueEvent(valueEventListener);
-
     }
-
-    private void getElectricalCount() {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Posts");
-        ValueEventListener valueEventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int count = 0;
-
-                for (DataSnapshot ds : snapshot.getChildren()) {
-                    if (ds.child("type").getValue(String.class).equals("Electrical Complaints")){
-                        count += 1;
-                    }
-                }
-                Electrical_complaints.setText(String.valueOf(count));
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        };
-        ref.addListenerForSingleValueEvent(valueEventListener);
-    }
-
-    private void getPublicIncidentsCount() {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Posts");
-        ValueEventListener valueEventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int count = 0;
-                for (DataSnapshot ds : snapshot.getChildren()) {
-                    if (ds.child("type").getValue(String.class).equals("Public Incidents")){
-                        count += 1;
-                    }
-                }
-                Public_incidents.setText(String.valueOf(count));
-            }
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        };
-        ref.addListenerForSingleValueEvent(valueEventListener);
-    }
-
-    private void getHouseholdComplaintsCount() {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Posts");
-        ValueEventListener valueEventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int count = 0;
-                for (DataSnapshot ds : snapshot.getChildren()) {
-                    if (ds.child("type").getValue(String.class).equals("Household Concerns")){
-                        count += 1;
-                    }
-                }
-                Household.setText(String.valueOf(count));
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        };
-
-        ref.addListenerForSingleValueEvent(valueEventListener);
-    }
-
-    private void getRoadComplaintsCount() {
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Posts");
-        ValueEventListener valueEventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int count = 0;
-                for (DataSnapshot ds : snapshot.getChildren()) {
-
-
-                    if (ds.child("type").getValue(String.class).equals("Road Complaints")){
-                        count += 1;
-                    }
-                }
-                Road_complaints.setText(String.valueOf(count));
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        };
-
-        ref.addListenerForSingleValueEvent(valueEventListener);
-    }
-
 
 
     private final BottomNavigationView.OnNavigationItemSelectedListener nevigationSelected = item -> {
